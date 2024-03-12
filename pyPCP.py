@@ -91,9 +91,6 @@ def solve_pcp_with_specified_length(upper, lower, domino_index, length, num):
                                             domino_index, length, num+1)
 
 
-# ----------------------------------------------------------------------
-# ポストの対応問題(PCP)を指定した長さ以下で解く
-# ----------------------------------------------------------------------
 def solve_pcp(domino, match_length, print_num=False):
     """solve_pcp
     ポストの対応問題(PCP)を指定した長さ以下で解く
